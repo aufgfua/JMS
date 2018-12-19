@@ -26,8 +26,10 @@
     offset: 56
   });
 
+
   // Collapse Navbar
   var navbarCollapse = function() {
+    var jms = $("#jmsArts");
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
